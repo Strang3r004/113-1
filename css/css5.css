@@ -1,0 +1,340 @@
+*
+{
+
+background-color: #200d0185;
+padding: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+    
+}
+body
+{
+    background-color: rgba(145, 122, 122, 0.048);
+    border: 0px; text-decoration: none;
+    background-image: url("../img/img5.jpg");
+    
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+header
+{
+    background-color: rgba(44, 43, 44, 0.589);
+}
+h1
+{
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: wavy;
+    text-rendering: optimizeLegibility;
+    text-shadow: 3px;
+    
+    color: #291403;
+    background: none;
+    font-size: 60px;
+    
+}
+h2
+{
+    color: black;
+    width: 90px;
+    
+}
+.trailer
+{
+    background-color: azure;
+}
+nav
+{
+    background-color: rgba(32, 20, 2, 0.541);
+    color: rgb(255, 234, 249);
+}
+a
+{
+    background-color: rgba(56, 133, 133, 0.438);
+    color: rgba(255, 255, 255, 0.582);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+section
+ {
+    background-color: rgba(245, 203, 169, 0.473);
+    
+    
+ }
+ div.sections {
+    display: block;
+
+    width: 75%;
+    float: left}
+p
+{
+    background-color: rgba(46, 57, 78, 0);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside
+{
+    background-color: rgba(39, 32, 35, 0.726);
+    
+    
+
+}
+div.asides {
+    display: block;
+    width: 20%;
+    float: left}
+
+h3
+{
+    color: honeydew;
+    
+}
+footer
+{
+    background-color: rgba(2, 2, 2, 0.377);
+    clear: both;
+
+}
+#home
+{
+    display: inline-block;
+    position: absolute;
+    left:40%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;  
+}
+#one
+{
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;
+}
+#second
+{
+    display: inline-block;
+    position: absolute;
+    left:55%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;   
+}
+#third
+{
+    display: inline-block;
+    position: absolute;
+    left:60%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;   
+}
+#forth
+{
+    display: inline-block;
+    position: absolute;
+    left:65%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;  
+}
+.cast
+{
+    background-color: rgba(233, 223, 223, 0.664);
+    color: black;
+}
+.castl
+{
+    background-color: rgba(233, 223, 223, 0.664);
+    color: black;
+    font-size: medium; 
+}
+.castll
+{
+    background-color: rgba(233, 223, 223, 0.664);
+    color: black;
+    font-size: medium;   
+}
+
+.title
+{
+    padding: 30px;
+    border-radius: 9px;
+    background-color: #ffe6d5b7;
+}
+iframe
+{
+    position: center;
+    display: inline-block;
+
+}
+
+
+@media screen and (max-width: 1281px)
+{
+    .cast
+    {
+        background: none;
+        color: rgb(243, 239, 239);
+        font-size: 1.5vw; 
+    }
+    .castl
+    {
+        background: none;
+        color: rgb(255, 245, 245);
+        font-size: 1.5vw; 
+    }
+}
+@media screen and (max-width:850px)
+{
+    *
+    {
+        background-color: #200d0185;
+        padding: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    div.sections {
+        display: block;
+    
+        width: 94%;
+        float: left}
+    h1
+{
+    text-align: center;
+    font-family: Miriam Libre;
+    text-decoration: wavy;
+    text-rendering: optimizeLegibility;
+    text-shadow: 3px;
+    font-weight: bolder;
+    color: #4e0202;
+    background: none;
+    font-size: 6vw;
+    
+}
+    
+.title
+    {
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #ffe6d5b7;}
+    body
+    {
+        background-color: rgba(145, 122, 122, 0.048);
+        border: 0px; text-decoration: none;
+        background-image: url("../img/img5.jpg");
+        
+        padding: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+    }
+    p
+{
+    background-color: rgba(46, 57, 78, 0);
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    iframe
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .cast
+    {
+        background: none;
+        color: rgb(243, 239, 239);
+        font-size: 3vw; 
+    }
+    .castl
+    {
+        background: none;
+        color: rgb(255, 245, 245);
+        font-size: 3vw; 
+    }
+    .castll
+{
+    background: none;
+    color: rgb(255, 245, 245);
+    font-size: 3vw; 
+}
+
+    div.asides {
+        display: block;
+        width: 100%;
+        float: left}
+
+        .trailer
+{
+    background-color: azure;
+    font-size: 4vw;
+}
+
+#home
+{
+    display: inline-block;
+    position: absolute;
+    left:30%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;  
+    font-size: 3vw;
+    padding: 1vw;
+}
+#one
+{ 
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;
+    font-size: 3vw;
+    padding: 1vw;
+}
+#second
+{
+    display: inline-block;
+    position: absolute;
+    left:55%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0; 
+    font-size: 3vw;
+    padding: 1vw;  
+}
+#third
+{
+    display: inline-block;
+    position: absolute;
+    left:60%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;  
+    font-size: 3vw;
+    padding: 1vw; 
+}
+#forth
+{
+    display: inline-block;
+    position: absolute;
+    left:65%;
+    background-color: rgb(80, 46, 8);
+    color: #ffe0e0;  
+    font-size: 3vw;
+    padding: 1vw;
+}
+    
+}
